@@ -38,7 +38,7 @@ BASELINE is per radio family: 0x66 RA89R, 0x88 UV8800, 0x90 TH9000D. It is
 detected automatically by trying all 256 values and keeping the one under which
 every record validates.
 
-Verified against 616 records across nine stock firmware files from three
+Verified against 610 records across nine stock firmware files from three
 different radios — every record, zero exceptions — and against four patched
 records whose check bytes were previously found by brute force on hardware
 (0x6D, 0xC3, 0xC3, 0xE1); the formula reproduces all four.
